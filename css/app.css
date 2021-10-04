@@ -1,0 +1,56 @@
+*{
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color:white;
+}
+
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.playagain {
+  display: none;
+}
+
+.victory {
+  display: none;
+
+}
+
+.pacman {
+  width: 25px;
+}
+
+.board-container {
+  border: 5px gray solid;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+button {
+  background-color:yellow ;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 30px;
+
+}
+
+
+
+.player-status{
+color: yellow;
+}
